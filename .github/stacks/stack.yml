@@ -7,6 +7,7 @@ branding:
 inputs:                                                  
   - name: API_KEY                                  
     description: Heroku API Key for deployment
+    is-secretL: true
   - name: APP_NAME
     description: App Name to be deployed on Heroku (must be unique)
   - name: EMAIL
